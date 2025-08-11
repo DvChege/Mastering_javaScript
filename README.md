@@ -49,7 +49,9 @@ The project covers the following:
 │── README.md    # Project documentation
 
 ````
-
+## Live Demo 🌐
+Your site is live at:  
+➡️ **[Mastering JavaScript Live Demo](https://dvchege.github.io/Mastering_javaScript/)**
 ---
 
 ## 🚀 How to Run
