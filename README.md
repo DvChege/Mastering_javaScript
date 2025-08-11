@@ -95,9 +95,4 @@ Josphat Chege
 📧 Email: mailto:cjosphat964@example.com
 💻 GitHub:https://github.com/DvChege
 
----
 
-```
-
-If you want, I can also make the **index.html**, **style.css**, and **script.js** files so this README links to a working project instead of just being documentation. That way, it’s ready to submit.
-```
