@@ -1,0 +1,93 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --card-bg: white;
+  --btn-bg: #0077ff;
+  --btn-hover: #005fcc;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --card-bg: #1f1f1f;
+  --btn-bg: #0d6efd;
+  --btn-hover: #084298;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+section {
+  background: var(--card-bg);
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 8px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s, background 0.3s;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+button {
+  background: var(--btn-bg);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: var(--btn-hover);
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.countdown {
+  font-size: 2rem;
+  margin-top: 10px;
+  min-height: 40px;
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.slide-down {
+  animation: slideDown 1s ease;
+}
+
+.fade-item {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
