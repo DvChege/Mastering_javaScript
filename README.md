@@ -51,7 +51,7 @@ The project covers the following:
 ````
 ## Live Demo 🌐
 Your site is live at:  
-➡️ **[Mastering JavaScript Live Demo](https://dvchege.github.io/Mastering_javaScript/)**
+➡️https://dvchege.github.io/Mastering_javaScript/
 ---
 
 ## 🚀 How to Run
