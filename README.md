@@ -1,6 +1,4 @@
 
-
-```markdown
 # Mastering JavaScript Fundamentals
 
 ## 📌 Overview
